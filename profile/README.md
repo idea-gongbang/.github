@@ -1,8 +1,8 @@
 <div align="center">
 
-# app-gongbang
+# idea-gongbang
 
-**앱 공방** · 남는 맥북 한 대를 서버 삼아, 아이디어를 앱으로 만드는 공간
+**아이디어 공방** · 남는 맥북 한 대를 서버 삼아, 아이디어를 앱으로 만드는 공간
 
 ![launched](https://img.shields.io/badge/launched-0%20%2F%2010-2ea44f?style=flat-square)
 ![server](https://img.shields.io/badge/server-MacBook-000000?style=flat-square&logo=apple&logoColor=white)
@@ -75,7 +75,7 @@ flowchart LR
 | Hardware | 남는 MacBook 1대 | 클램셸 모드, 상시 가동 |
 | Orchestration | Kubernetes | 배포판 미정 |
 | Ingress | Cloudflare Tunnel (`cloudflared`) | 아웃바운드 연결만 사용, 인바운드 포트 0개 |
-| Source | GitHub `app-gongbang` | 앱 레포는 비공개 |
+| Source | GitHub `idea-gongbang` | 앱 레포는 비공개 |
 | Deploy | 미정 | 첫 앱 배포 때 결정 |
 
 ## Server Map
