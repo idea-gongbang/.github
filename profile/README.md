@@ -8,7 +8,6 @@
 ![server](https://img.shields.io/badge/server-MacBook-000000?style=flat-square&logo=apple&logoColor=white)
 ![kubernetes](https://img.shields.io/badge/orchestration-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![cloudflare](https://img.shields.io/badge/ingress-Cloudflare%20Tunnel-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![visibility](https://img.shields.io/badge/visibility-private-8b949e?style=flat-square&logo=github)
 
 [Mission](#mission) · [Apps](#apps) · [Infrastructure](#infrastructure) · [Server Map](#server-map) · [Conventions](#conventions)
 
@@ -76,7 +75,7 @@ flowchart LR
 | Hardware | 남는 MacBook 1대 | 클램셸 모드, 상시 가동 |
 | Orchestration | Kubernetes | 배포판 미정 |
 | Ingress | Cloudflare Tunnel (`cloudflared`) | 아웃바운드 연결만 사용, 인바운드 포트 0개 |
-| Source | GitHub `app-gongbang` | 전 레포 비공개 |
+| Source | GitHub `app-gongbang` | 앱 레포는 비공개 |
 | Deploy | 미정 | 첫 앱 배포 때 결정 |
 
 ## Server Map
@@ -100,7 +99,7 @@ flowchart LR
 |---|---|
 | `<app>` | 앱 하나당 레포 하나, 이름은 kebab-case |
 | `infra` | Kubernetes 매니페스트와 터널 설정 |
-| `.github-private` | 이 문서 |
+| `.github` | 이 문서 |
 
 **Branch** · GitHub Flow
 
